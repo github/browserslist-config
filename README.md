@@ -14,6 +14,18 @@ Install the package using `npm`.
 npm install --save-dev @github/browserslist-config
 ```
 
+---
+
+_Note:_ If your project is setup to pull from GitHub Package Registry (GPR), then you will need to install the following way:
+
+```sh
+npm install --save-dev @github/browserslist-config --@github:registry=https://registry.npmjs.org
+```
+
+However, if possible, it is recommended to use NPM instead of GPR.
+
+---
+
 Add the `browserslist` key to your `package.json`.
 
 ```diff
