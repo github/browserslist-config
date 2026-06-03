@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/github/browserslist-config/issues"
   },
-  "homepage": "https://github.com/github/browserslist-config#readme"
+  "homepage": "https://github.com/github/browserslist-config#readme",
+  "devDependencies": {
+    "playwright": "^1.60.0"
+  }
 }
