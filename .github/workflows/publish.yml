@@ -18,7 +18,6 @@ jobs:
           node-version: 26
           registry-url: https://registry.npmjs.org/
       - run: npm ci
-      - run: npx playwright install chromium
       - run: npm test
       - run: |
           echo "Publishing $TAG_NAME"
